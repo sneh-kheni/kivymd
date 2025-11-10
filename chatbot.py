@@ -14,7 +14,7 @@ os.environ["GRPC_VERBOSITY"] = "NONE"
 os.environ["GLOG_minloglevel"] = "2"
 
 # Configure Gemini
-genai.configure(api_key="AIzaSyDUBHj48GewPtzog0PxxGRsrFZ-X_eqtyw")  # 👈 Replace with your actual API key
+genai.configure(api_key="use your api key here")  # 👈 Replace with your actual API key
 model = genai.GenerativeModel("gemini-2.5-flash")
 
 # Main UI
@@ -69,3 +69,4 @@ class InputOutputApp(App):
 
 if __name__ == '__main__':
     InputOutputApp().run()
+
